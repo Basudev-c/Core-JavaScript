@@ -20,7 +20,7 @@
 //  ||                OR                  At least one conditions must be true
 //  !                 NOT                 Reverse the result true/false
 
-// Check the person is eligible for vote or not using comparison and logical operators
+// Check the person is eligible for vote or not using comparison and logical operators.
 
 const age = 16;
 const pass = true;

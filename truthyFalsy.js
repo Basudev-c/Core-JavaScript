@@ -18,7 +18,6 @@
 
 let b = "Ami";
 if(b){console.log("Truthy");}            // "Ami" is a non-empty string -> Truthy 
-
 if(0){ console.log("never runs");}       // 0 is falsy
 if(""){ console.log("never runs");}      // ""(empty string) is falsy
 if([]){ console.log("runs!");}           // an empty array is Truthy

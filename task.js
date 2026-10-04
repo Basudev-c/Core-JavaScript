@@ -338,3 +338,20 @@ let player = [
 for (let p of player){
     console.log(p.name)                                    
 }
+
+
+// Array methods
+
+// 11.1- Map: time 10
+
+let xNo = [3,6,9]
+let noX10 = xNo.map(m => m*10)
+console.log(noX10)
+
+// 11.2- filter: bigger than 7
+
+let value = [5,12,8,20,1]
+let valueBig = value.filter(v => v > 7)
+console.log(valueBig)
+
+// 11.3- find: 

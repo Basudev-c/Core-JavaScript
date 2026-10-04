@@ -16,7 +16,7 @@ console.log(a+b);      // "9hi" string + string + string
 
 
 // 2. Explicit - In explicit we manually change the type using in-built functions().
-//Example- Number(),String(),Boolean
+//Example- Number(), String(), Boolean()
 
 const anum = "11";
 let newVal = parseInt(anum);    // expicit: "11" -> 11

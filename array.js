@@ -103,3 +103,35 @@ for(n of num){
 console.log(Total)                         // 22
 
 
+// array methods
+
+// Example 1 — One value forEach : do something with each item
+
+let names = ["Asha","Ravi"]
+names.forEach(n => console.log(`hi ${n}`))
+
+// Example 2 - map : change every item
+
+let nums = [1,2,3,]
+let triple = nums.map(t=>t*3)
+console.log(triple)
+
+// Example 3 — filter : keep only some items
+
+let number = [12,25,17,30]
+let newNum = number.filter(m=> m >= 18)
+console.log(newNum)
+
+// Example 4 — find : get the first match
+
+let word = ["hi","hey","hello"]
+let newWord = word.find(w => w.length > 2)
+console.log(newWord)
+
+// Example 5 — reduce : combine everything into one value
+
+let mark = [10,20,30]
+let total1 = mark.reduce((sum,n)=>sum+n)
+console.log(total1)
+
+
