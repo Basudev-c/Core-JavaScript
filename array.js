@@ -79,7 +79,7 @@ console.log(total);                       // 100
 let foods = ["pizza","dosa","pasta","momos","biryani"];
 
 console.log(foods[0]);                     // pizza
-console.log(foods[foods.length-1]);         // biryani
+console.log(foods[foods.length-1]);        // biryani
 
 // 1.2- Add one more
 
