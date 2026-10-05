@@ -354,4 +354,14 @@ let value = [5,12,8,20,1]
 let valueBig = value.filter(v => v > 7)
 console.log(valueBig)
 
-// 11.3- find: 
+// 11.3- find: first long word
+
+let animals = ["cat", "elelphant", "dog"]
+let longAnimalName = animals.find(f => f.length > 3)
+console.log(longAnimalName)
+
+// 11.4- reduce: total
+
+let score = [10,20,30]
+let result = score.reduce((r,t) => r + t, 0)
+console.log(result)

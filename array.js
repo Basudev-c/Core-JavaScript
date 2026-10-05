@@ -108,30 +108,66 @@ console.log(Total)                         // 22
 // Example 1 — One value forEach : do something with each item
 
 let names = ["Asha","Ravi"]
-names.forEach(n => console.log(`hi ${n}`))
+
+names.forEach(n => console.log(`hi ${n}`)) // hi Asha, hi Ravi
 
 // Example 2 - map : change every item
 
 let nums = [1,2,3,]
 let triple = nums.map(t=>t*3)
-console.log(triple)
+
+console.log(triple)                        // [3, 6, 9]
 
 // Example 3 — filter : keep only some items
 
 let number = [12,25,17,30]
 let newNum = number.filter(m=> m >= 18)
-console.log(newNum)
+
+console.log(newNum)                        // [25, 30]
 
 // Example 4 — find : get the first match
 
 let word = ["hi","hey","hello"]
 let newWord = word.find(w => w.length > 2)
-console.log(newWord)
+
+console.log(newWord)                       // hey
 
 // Example 5 — reduce : combine everything into one value
 
 let mark = [10,20,30]
 let total1 = mark.reduce((sum,n)=>sum+n)
-console.log(total1)
+
+console.log(total1)                        // 60
+
+
+// Array methods
+
+// 2.1- Map: time 10
+
+let xNo = [3,6,9]
+let noX10 = xNo.map(m => m*10)
+
+console.log(noX10)                         // [30, 60, 90]
+
+// 2.2- filter: bigger than 7
+
+let value = [5,12,8,20,1]
+let valueBig = value.filter(v => v > 7)
+
+console.log(valueBig)                      // [12, 8, 20]
+
+// 2.3- find: first long word
+
+let animals = ["cat", "elelphant", "dog"]
+let longAnimalName = animals.find(f => f.length > 3)
+
+console.log(longAnimalName)                // elephant
+
+// 2.4- reduce: total
+
+let score = [10,20,30]
+let result = score.reduce((r,t) => r + t, 0)
+
+console.log(result)                        // 60
 
 
