@@ -18,3 +18,4 @@ const mySum = (n = nub) => {   // n get 12 if nothing is passed
 console.log(mySum(19));        // 12 + 13 + 19 = 44
 console.log(mySum());          // 12 + 13 + 12 = 37
 console.log(nub,za);           // Error: za is not defined, 'za' was declared inside the mySum function block.
+

@@ -62,4 +62,4 @@ let studentInfo = {
     ...courseDetails
 }
 
-console.log(studentInfo)                    // {    name: "Basudev",age: 24, course: "BCA", semester: 5}
+console.log(studentInfo)                    // {    name: "Basudev", age: 24, course: "BCA", semester: 5}
